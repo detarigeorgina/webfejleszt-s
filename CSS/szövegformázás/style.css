@@ -1,0 +1,49 @@
+#p1 {
+    text-align: left;
+}
+
+#p2 {
+    text-align: center;
+}
+
+#p3 {
+    text-align: right;
+}
+
+#p4 {
+    text-align: justify;
+}
+
+#p5 {
+    text-decoration: underline overline;
+    text-decoration-color: red;
+    text-decoration-line: underline line-through;
+    text-decoration-thickness: 2px;
+}
+
+a{
+text-decoration: none ;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+#p6 {
+    text-indent: 50%;
+}
+
+#p7 {
+    /* 1px=jobbra, 3px=lefele, 2px=elmosás */
+    text-shadow:1px 3px 2px blue;
+}
+
+#p8 {
+    text-shadow: 0px 0px 3px blue;
+}
+
+#p9 {
+    text-transform: uppercase;
+}
+
