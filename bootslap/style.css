@@ -12,3 +12,7 @@ button.btn {
 td {
     border: 1px solid black;
 }
+
+.contanier-fluid {
+    background-color: azure;
+}
