@@ -1,10 +1,17 @@
 .hasab {
 float: left;
+width: 50%;
+padding-left: 10px;
+padding-right: 10px;
+box-sizing: border-box;
 
 }
 
 
 footer {
+    border-top: 2px solid #a52a2a;
+    clear: both;
+    padding: top 5px; 
 }
     
 
@@ -17,13 +24,17 @@ footer {
     }
 
     h1 {
-        border-bottom: underline 2x solid #a52a2a;
+    padding-bottom: 5px;
+    border-bottom: underline 2x solid #a52a2a;
     }
+
 
     li {
         display: inline-block;
         min-width: 50px;
         border-right: 2px solid #a52a2a;
+        padding: 6px;
+        color: white
 
     }
 
@@ -32,3 +43,30 @@ footer {
         
     }
 
+h2 {
+    width: 90%;
+    background-color: #cd853f ;
+    font-style: italic;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+p {
+    text-align: justify;
+
+}
+
+.hasab p {
+width: 96%;
+
+}
+img{
+    width: 100px;
+    float: left;
+    border: 2px solid #a52a2a;
+}
+
+ul {
+    padding: 0;
+
+}
